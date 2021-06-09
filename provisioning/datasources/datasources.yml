@@ -1,0 +1,13 @@
+apiVersion: 1
+deleteDatasources:
+  - name: YOUR_DATASOURCE_NAME
+    orgId: 1
+datasources:
+  - name: YOUR_DATASOURCE_NAME
+    version: 1
+    type: YOUR_PLUGIN_ID
+    url: YOUR_URL
+    jsonData:
+      customSetting: YOUR_CUSTOM_SETTING
+    secureJsonData:
+      key: YOUR_TEST_KEY
